@@ -54,18 +54,18 @@ Currently, ADRL allows you to focus on three core research directions pertinent 
 
 
 
-5. **Implementaation**:
+5. ### **Implementaation**:
 
     <img src="https://github.com/muralikarteek7/Drone_Vision_control/blob/main/images/flow.png?raw=true" > 
 
-6. **Usage**: Brief explanation of how both the **vision-based** and **state-based controllers** work, along with an example of combining them.
+6. ### **Results**: 
 
-7. **Test the Controller**: How to test various components of the project using **pytest**.
+    **Vision COntrol**
 
-8. **Troubleshooting**: Common issues with setup and their solutions.
+    <img src="https://github.com/muralikarteek7/Drone_Vision_control/blob/main/images/vision.gif?raw=true" > 
 
-9. **Contributions**: Guidelines on how others can contribute to your project.
+    **MPC PID COntrol**
+
+    <img src="https://github.com/muralikarteek7/Drone_Vision_control/blob/main/images/racevideo.gif?raw=true" > 
 
 ---
-
-This README will guide users through every step of setting up your project and give them clear instructions on how to get started with AirSim, the controllers, and testing. Make sure to update the links and project-specific details as needed.
