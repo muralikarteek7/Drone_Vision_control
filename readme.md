@@ -12,11 +12,19 @@ Currently, ADRL allows you to focus on three core research directions pertinent 
 
 <img src="https://github.com/muralikarteek7/Drone_Vision_control/blob/main/images/tier_1.gif?raw=true" width="400"> <img src="https://github.com/muralikarteek7/Drone_Vision_control/blob/main/images/tier_2.gif?raw=true" width="400"> 
 
-1. **Prerequisites**: 
+1. **Airsim Setup**: 
+
+[AirSim-Drone-Racing-Lab Repository](https://github.com/microsoft/AirSim-Drone-Racing-Lab.git)
 
 
+2. **Nanosam Setup**: 
 
-2. **Clone the Repository**: Instructions on how to clone the GitHub repository to the user's machine.
+[Nanosam Repository](https://github.com/NVIDIA-AI-IOT/nanosam)
+
+
+2. **State base controller**: 
+
+MPC and PID
    
 3. **Install Dependencies**: Provides steps to install Python dependencies via `pip` using the `requirements.txt` file.
 
