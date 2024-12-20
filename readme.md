@@ -26,25 +26,25 @@ Currently, ADRL allows you to focus on three core research directions pertinent 
 
     MPC for XY Plane Control
 
-        Model Predictive Control (MPC) is used to control the drone’s position in the XY plane. MPC is an optimal control method that uses a model of the system to predict future states and solve an optimization problem to determine the best control inputs. It can handle constraints and nonlinearities in the system.
+    Model Predictive Control (MPC) is used to control the drone’s position in the XY plane. MPC is an optimal control method that uses a model of the system to predict future states and solve an optimization problem to determine the best control inputs. It can handle constraints and nonlinearities in the system.
 
-            XY Plane Control: In this system, MPC is applied to control the drone's position along the X and Y axes, aiming to move the drone to a desired waypoint.
+    XY Plane Control: In this system, MPC is applied to control the drone's position along the X and Y axes, aiming to move the drone to a desired waypoint.
 
-            Implementation:
-                The MPC algorithm calculates control inputs (like velocity or acceleration) by solving an optimization problem over a prediction horizon.
-                The control inputs are adjusted at each time step based on the current state (position, velocity) of the drone.
+    Implementation:
+        The MPC algorithm calculates control inputs (like velocity or acceleration) by solving an optimization problem over a prediction horizon.
+        The control inputs are adjusted at each time step based on the current state (position, velocity) of the drone.
 
-            Tuning: MPC parameters (such as horizon length, control horizon, and weighting factors) are tuned to optimize the drone’s trajectory and performance.
+    Tuning: MPC parameters (such as horizon length, control horizon, and weighting factors) are tuned to optimize the drone’s trajectory and performance.
 
     PID for Altitude Control
 
     Altitude control is another critical aspect of the drone's flight. The PID controller is used for controlling the drone's altitude (height above the ground). The goal is to maintain a stable altitude, or to smoothly transition to a new altitude, based on a target value.
 
-        Altitude Control: Similar to yaw control, altitude control uses a PID controller to manage the drone’s altitude.
+    Altitude Control: Similar to yaw control, altitude control uses a PID controller to manage the drone’s altitude.
 
-        Implementation:
-            The altitude error is the difference between the target altitude and the current altitude.
-            The PID controller adjusts the drone's vertical velocity to reduce this error over time.
+    Implementation:
+        The altitude error is the difference between the target altitude and the current altitude.
+        The PID controller adjusts the drone's vertical velocity to reduce this error over time.
 
     Combined Control System
 
