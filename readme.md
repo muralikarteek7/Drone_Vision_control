@@ -55,6 +55,7 @@ Currently, ADRL allows you to focus on three core research directions pertinent 
 
 
 5. **Implementaation**:
+
     <img src="https://github.com/muralikarteek7/Drone_Vision_control/blob/main/images/flow.png?raw=true" width="400"> 
 
 6. **Usage**: Brief explanation of how both the **vision-based** and **state-based controllers** work, along with an example of combining them.
