@@ -36,9 +36,23 @@ Currently, ADRL allows you to focus on three core research directions pertinent 
     Both control methods work together to ensure the drone can move to the desired position, maintain stable altitude, and adjust its orientation in flight.
 
    
-3. **Install Dependencies**: Provides steps to install Python dependencies via `pip` using the `requirements.txt` file.
+3. **Vision Control**: 
 
-4. **Setting Up AirSim**: Detailed instructions on setting up the **AirSim** simulator on the user's system. It includes specific steps for both **Windows** and **Linux/Mac** environments.
+    In this project, the **Vision Control** system leverages **NanoSAM** for **gate segmentation**, enabling the drone to identify and navigate through gates autonomously.
+
+    ### **Gate Segmentation using NanoSAM**
+    We use **NanoSAM**, a lightweight semantic segmentation model, to process the drone's camera feed and segment gates in the environment. The segmented masks provide crucial visual feedback for the drone to approach the gates.
+
+
+4. **Planner**: 
+
+
+    The **Planner** utilizes a **Cubic Spline Generator** to calculate smooth paths between waypoints (gates) for the drone to follow. The path is continuously updated based on the real-time vision data.
+
+    ### **Cubic Spline Path Generation**
+    The **Cubic Spline Generator** computes a smooth, continuous path between gates. This method ensures the drone transitions smoothly and stably between waypoints.
+
+
 
 5. **Running the Controller**: Instructions on how to run the drone controller once the setup is complete.
 
