@@ -60,11 +60,11 @@ Currently, ADRL allows you to focus on three core research directions pertinent 
 
 6. ### **Results**: 
 
-    **Vision COntrol**
+    **Vision Control**
 
     <img src="https://github.com/muralikarteek7/Drone_Vision_control/blob/main/images/vision.gif?raw=true" > 
 
-    **MPC PID COntrol**
+    **MPC PID Control**
 
     <img src="https://github.com/muralikarteek7/Drone_Vision_control/blob/main/images/racevideo.gif?raw=true" > 
 
